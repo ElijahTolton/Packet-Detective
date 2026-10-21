@@ -68,28 +68,6 @@ No prior cybersecurity experience is required.
 - Supabase
 - PostgreSQL
  
-## Development
- 
-```bash
-git clone https://github.com/yourusername/packet-detective.git
- 
-cd packet-detective
- 
-npm install
- 
-npm run dev
-```
- 
-Open `http://localhost:3000`.
- 
-## Roadmap
- 
-- [ ] Packet capture parser
-- [ ] Interactive evidence board
-- [ ] Case authoring tools
-- [ ] Multiplayer investigations
-- [ ] Procedural case generation
-- [ ] Steam release
  
 ## Motivation
  
