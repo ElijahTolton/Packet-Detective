@@ -1,7 +1,104 @@
-# VivaDialouge
-VivaDialogue is a human-in-the-loop, post-assignment learning-conversation platform for departments and institutions. It supplements existing assignments with a tailored AI conversation in which students explain their work in their own words, reconsider their reasoning, and apply or extend their solution. This gives students a reason to do the assignment and work through difficult concepts—not merely submit a plausible answer—and gives authorized course staff clear, reviewable evidence for human follow-up when needed.
-
-## Product approach
-VivaDialogue is not a locked-down, monitored assignment workspace and does not make an academic-integrity verdict. Students complete work in their normal environment under the course's existing AI and tool-use policy. After the assignment, VivaDialogue begins from the student's work and guides a conversation that helps learning occur while making the student's understanding visible.
-
-The product's primary promise is productive struggle and evidence of thinking. Course staff may use the resulting conversation to provide feedback, decide on follow-up, or support grading according to course policy, but consequential decisions remain human-owned.# VivaDialogue-Overview
+# Packet Detective
+ 
+Packet Detective is a browser-based game where players solve security incidents by analyzing packet captures, DNS logs, email records, and other forensic artifacts.
+ 
+The project started as a way to make networking concepts feel less abstract. Instead of learning what DNS tunneling or a TCP handshake is from slides, players encounter them while investigating realistic scenarios.
+ 
+## Example Cases
+ 
+### Stolen Midterm
+ 
+A professor claims an exam was leaked before release.
+ 
+Available evidence:
+ 
+- Packet capture
+- Mail server logs
+- DNS records
+ 
+Find out how the file was accessed and who was involved.
+ 
+### Suspicious Employee
+ 
+A company suspects someone is exfiltrating confidential data.
+ 
+Available evidence:
+ 
+- Firewall logs
+- DNS logs
+- Authentication history
+ 
+Determine whether data was actually stolen.
+ 
+## Features
+ 
+- Browser-based investigations
+- Packet capture viewer
+- Searchable logs
+- Evidence timeline
+- Case report submissions
+- Multiple difficulty levels
+ 
+## Topics Covered
+ 
+Cases may involve:
+ 
+- TCP
+- DNS
+- HTTP
+- HTTPS
+- SMTP
+- TLS
+- QUIC
+- VPNs
+- Firewalls
+ 
+No prior cybersecurity experience is required.
+ 
+## Tech Stack
+ 
+### Frontend
+ 
+- Next.js
+- TypeScript
+- Tailwind CSS
+ 
+### Backend
+ 
+- Supabase
+- PostgreSQL
+ 
+## Development
+ 
+```bash
+git clone https://github.com/yourusername/packet-detective.git
+ 
+cd packet-detective
+ 
+npm install
+ 
+npm run dev
+```
+ 
+Open `http://localhost:3000`.
+ 
+## Roadmap
+ 
+- [ ] Packet capture parser
+- [ ] Interactive evidence board
+- [ ] Case authoring tools
+- [ ] Multiplayer investigations
+- [ ] Procedural case generation
+- [ ] Steam release
+ 
+## Motivation
+ 
+Most networking labs tell students exactly what to look for.
+ 
+Packet Detective does the opposite.
+ 
+The player gets a collection of evidence and a problem statement. Everything else has to be figured out from the data.
+ 
+```
+ 
+Built because reading Wireshark traces is more interesting when someone has committed a crime.
